@@ -12,9 +12,9 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
 ### Tasks:
 
 * [X] [Create a Github account](https://github.com/signup)
-* [X] Find and star [the class project](https://github.com/TheIronYard--Orlando/2015--SUMMER--iOS)
-* [ ] Read [the Home page on the class wiki](https://github.com/TheIronYard--Orlando/2015--SUMMER--iOS/wiki)
-* [ ] [Create a new _WIP Issue_](https://github.com/TheIronYard--Orlando/2015--SUMMER--iOS/issues/new)
+* [X] Find and star [the class project](https://github.com/TheIronYard--Orlando/2015--FALL--iOS)
+* [ ] Read [the Home page on the class wiki](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/wiki)
+* [ ] [Create a new _WIP Issue_](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/issues/new)
   * [ ] Named `00 -- This is Heavy -- YOUR NAME` (where `YOUR NAME` is _your_ name)
   * [ ] With this checklist as the description
 * [ ] [Edit your Github profile](https://github.com/settings/profile) to provide:
@@ -27,39 +27,12 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
   * [ ] Check the box to create an initial `README.md` file
   * [ ] Select the `CC0` -- "Creative Commons" license for your work
   * [ ] Add a link to your `TIY-Assignments` repo as a comment on your *WIP Issue*
-* [ ] [Complete the "Forking Projects" Github guide](https://guides.github.com/activities/forking/)
-    * [ ] Add a link to your `Fork-and-Spoon` repo as a comment on your *WIP Issue*
 * [ ] Install Xcode from the Mac App Store. Simply search for _Xcode_.
-* [ ] Open Xcode. Click the _Xcode_ menu in the menubar, then choose _Preferences_. Navigate to the _Downloads_ tab and install the latest iOS documentation (currently iOS 8.3). Once fully downloaded, the docset should have a small checkmark next to it.
-* [ ] Install Dash from the Mac App Store. Navigate to the Dash app's preferences and choose the _Downloads_ tab. Install the following docsets:
-    * [ ] iOS 8.3 (or latest, it will find the already loaded set from the step above)
-    * [ ] Swift 1.2 (or latest)
-    * [ ] Objective-C
-    * [ ] Objective-C Blocks
-    * [ ] Xcode
-    * [ ] iOS Design
-    * [ ] Take a screenshot of the _Docsets_ tab in preferences and attach it to your _WIP Issue_
+* [ ] Open Xcode. Click the _Xcode_ menu in the menubar, then choose _Preferences_. Navigate to the _Downloads_ tab and install the latest iOS documentation (currently iOS 9.0). Once fully downloaded, the docset should have a small checkmark next to it.
 * [ ] Watch _The Long Run_ Videos on [Delve.tv](http://delve.tv)
    * [ ] [_The Long Game_, part 1](http://delve.tv/the-long-game-part-one/)
    * [ ] [_The Long Game_, part 2](http://delve.tv/the-long-game-part-2/)
 * [ ] Look at the Prework-A file for instructions on how to complete the Counter app.
-
-### Deliverables:
-
-* [ ] _WIP Issue_
-  * [ ] named `00 -- This is Heavy -- YOUR NAME`
-  * [ ] with description matching __Tasks__
-* [ ] A Github Profile with:
-  * [ ] Intelligible picture of yourself
-  * [ ] Your full name
-  * [ ] A valid email address
-* [ ] Comments on your *WIP Issue* with links to your repos for
-  * [ ] `Hello-World`
-  * [ ] `TIY-Assignments`
-  * [ ] `Fork-and-Spoon`
-  * [ ] Attached image from the Dash preference pane for installed docsets
-* [ ] A completed Counter app project, added to your TIYAssignments repo
-```
 
 ## Extracurricular Activities
 
