@@ -38,6 +38,7 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
    * [ ] Take a screenshot of your points earned for the course and add it as a comment to your *WIP Issue*
 * [ ] Look at the Prework-A file for instructions on how to complete the Counter app.
    * [ ] Your counter app files should be added to your TIY-Assignments repo. Because you previously added a link to your repo to your *WIP Issue*, I will be able to see your progress as you go. Be sure to commit/push the changes you make as you work on the app.
+```
 
 ## Extracurricular Activities
 
