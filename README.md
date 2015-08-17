@@ -1,4 +1,4 @@
-# Summer 2015 Mobile Development
+# Fall 2015 Mobile Development
 
 Hello everyone! I'm excited to get started with class and I hope you are too. Over the next 12 weeks we will cover Swift, Objective-C, the iOS SDK, and a bunch of other concepts too numerous to name. We will also tackle problems and challenges that software engineers face everyday around the world. This is all to get you to begin to think like an engineer. It will be difficult, but I hope also a lot of fun. By the end of this course you all should be able to build iOS applications for both yourself and your future clients/employers. I encourage you all to push towards releasing at least 1 app in the App Store. There really is nothing more satisfying than having an app that is publicly available and something you can point to as an execution of your vision and hard work.
 
