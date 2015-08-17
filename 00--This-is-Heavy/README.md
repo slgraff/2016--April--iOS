@@ -6,7 +6,7 @@ Most of this assignment is getting your laptop ready for Day 1 by installing a f
 
 ## Requirements
 
-You will notice in the __Tasks__ and __Requirements__ sections below that the text is a different font and style. It is displayed here without any formatting for easy copy/pasting by you. This checklist uses something called __Markdown__ and provides for really easy formatting. If you copy and paste the text _as is_ from the __Tasks__ and __Deliverables__ sections below into the __Description__ of your issue, you should end up with a bunch of checkboxes, thanks to [the way that Github interprets Markdown](https://guides.github.com/features/mastering-markdown/). As you complete tasks, check off the corresponding checkboxes and let your progress bar fill up! Read [Mastering Issues](https://guides.github.com/features/issues/) for more information on creating issues in Github. For help creating your first issue, see below in the tasks lists and also check out the exampe issue I created in the class repository on GitHub.
+You will notice in the __Tasks__ and __Requirements__ sections below that the text is a different font and style. It is displayed here without any formatting for easy copy/pasting by you. This checklist uses something called __Markdown__ and provides for really easy formatting. If you copy and paste the text _as is_ from the __Tasks__ and __Deliverables__ sections below into the __Description__ of your issue, you should end up with a bunch of checkboxes, thanks to [the way that Github interprets Markdown](https://guides.github.com/features/mastering-markdown/). As you complete tasks, check off the corresponding checkboxes and let your progress bar fill up! Read [Mastering Issues](https://guides.github.com/features/issues/) for more information on creating issues in Github. For help creating your first issue, see below in the tasks list and also check out the exampe issue I created in the class repository on GitHub.
 
 ```markdown
 ### Tasks:
@@ -42,9 +42,12 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
 
 ## Extracurricular Activities
 
-Regardless of how good you think you are at typing, a lot of the mistakes you make at first will be simple typographic errors. If you _don't_ know how to touch type (i.e. without looking at the keyboard), start practicing _now_ with http://www.keybr.com/. If you're fairly confident in your typing ability, try working through the Objective-C lessons on http://typing.io
+Regardless of how good you think you are at typing, a lot of the mistakes you make at first will be simple typographic errors. If you _don't_ know how to touch type (i.e. without looking at the keyboard), start practicing _now_ with [keybr.com](http://www.keybr.com/). If you're fairly confident in your typing ability, try working through the Objective-C lessons on [typing.io](http://typing.io).
 
-If you've finished everything above and are still looking for more, work through these intro tutorials on the C and Objective-C languages. Objective-C is called a "superset" of ANSI C, meaning that it provides full backwards compatibility with C, and extends it in several important areas. The following tutorials will give you an introduction to several concepts we will use quite heavily in class:
+If you've made it this far and are looking to get a leg up on the first few lectures, check out the following information from Apple's documentation on Swift:
 
-* [Learning C: A Primer](http://code.tutsplus.com/tutorials/learning-c-a-primer--mobile-13916)
-* [Getting Started with Objective-C](http://code.tutsplus.com/tutorials/getting-started-with-objective-c--mobile-13944)
+* [ ] Check out the Swift Programming Language guide. Pay special attention to the first section [*Welcome To Swift*](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html).
+   * [ ] From the Guided Tour section, read the paragraphs labelled, *Simple Values* and *Control Flow*.
+   * [ ] Feel free to read the first few items under the section called, *The Basics*. This is in the *Language Guide* chapter.
+
+Also note that this entire docset is available on iBooks as an electronic book. Feel free to download the iBook for your Mac or iOS device to use as reference during the class if you'd like.
