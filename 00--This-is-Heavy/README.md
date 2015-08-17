@@ -23,6 +23,8 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
   * [ ] A valid public email address, so I can contact you if I need to.
 * [ ] [Complete the "Hello World" Github guide](https://guides.github.com/activities/hello-world/)
   * [ ] Add a link to your new Github repo as a comment on your *WIP Issue*
+* [ ] Complete the Code School course [Try Git](https://www.codeschool.com/courses/try-git)
+  * [ ] Take a screenshot of the Try Git course when you complete it and add it as a comment to your *WIP Issue*
 * [ ] Create a new repository called `TIY-Assignments`
   * [ ] Check the box to create an initial `README.md` file
   * [ ] Select the `CC0` -- "Creative Commons" license for your work
@@ -32,7 +34,10 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
 * [ ] Watch _The Long Run_ Videos on [Delve.tv](http://delve.tv)
    * [ ] [_The Long Game_, part 1](http://delve.tv/the-long-game-part-one/)
    * [ ] [_The Long Game_, part 2](http://delve.tv/the-long-game-part-2/)
+* [ ] Complete the [Swift Basics](http://teamtreehouse.com/library/swift-basics) course on Treehouse.
+   * [ ] Take a screenshot of your points earned for the course and add it as a comment to your *WIP Issue*
 * [ ] Look at the Prework-A file for instructions on how to complete the Counter app.
+   * [ ] Your counter app files should be added to your TIY-Assignments repo. Because you previously added a link to your repo to your *WIP Issue*, I will be able to see your progress as you go. Be sure to commit/push the changes you make as you work on the app.
 
 ## Extracurricular Activities
 
