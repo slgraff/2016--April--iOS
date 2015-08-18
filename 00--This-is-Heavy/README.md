@@ -30,7 +30,7 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
   * [ ] Select the `CC0` -- "Creative Commons" license for your work
   * [ ] Add a link to your `TIY-Assignments` repo as a comment on your *WIP Issue*
 * [ ] Install Xcode from the Mac App Store. Simply search for _Xcode_.
-* [ ] Open Xcode. Click the _Xcode_ menu in the menubar, then choose _Preferences_. Navigate to the _Downloads_ tab and install the latest iOS documentation (currently iOS 9.0). Once fully downloaded, the docset should have a small checkmark next to it.
+* [ ] Open Xcode. Click the _Xcode_ menu in the menubar, then choose _Preferences_. Navigate to the _Downloads_ tab and install the latest iOS documentation (currently iOS 8.3, will probably be 9.0 when class starts). Once fully downloaded, the docset should have a small checkmark next to it.
 * [ ] Watch _The Long Run_ Videos on [Delve.tv](http://delve.tv)
    * [ ] [_The Long Game_, part 1](http://delve.tv/the-long-game-part-one/)
    * [ ] [_The Long Game_, part 2](http://delve.tv/the-long-game-part-2/)
