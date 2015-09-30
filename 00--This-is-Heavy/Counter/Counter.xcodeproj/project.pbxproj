@@ -14,18 +14,7 @@
 		DF5740CD1B835FE9004C128E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5740C91B835FE9004C128E /* LaunchScreen.xib */; };
 		DF5740CE1B835FE9004C128E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5740CB1B835FE9004C128E /* Main.storyboard */; };
 		DF5740D01B836008004C128E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF5740CF1B836008004C128E /* Default-568h@2x.png */; };
-		DFDE894E1B8261D3008A63C3 /* Swift_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDE894D1B8261D3008A63C3 /* Swift_CounterTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DFDE89481B8261D3008A63C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DFDE892A1B8261D3008A63C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DFDE89311B8261D3008A63C3;
-			remoteInfo = "Swift-Counter";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DF5740BF1B835FDE004C128E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Counter/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
@@ -37,20 +26,10 @@
 		DF5740CF1B836008004C128E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DFDE89321B8261D3008A63C3 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDE89361B8261D3008A63C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDE89471B8261D3008A63C3 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFDE894C1B8261D3008A63C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DFDE894D1B8261D3008A63C3 /* Swift_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CounterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DFDE892F1B8261D3008A63C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DFDE89441B8261D3008A63C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,7 +44,6 @@
 			children = (
 				DF5740CF1B836008004C128E /* Default-568h@2x.png */,
 				DFDE89341B8261D3008A63C3 /* Counter */,
-				DFDE894A1B8261D3008A63C3 /* Swift-CounterTests */,
 				DFDE89331B8261D3008A63C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				DFDE89321B8261D3008A63C3 /* Counter.app */,
-				DFDE89471B8261D3008A63C3 /* CounterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,23 +79,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DFDE894A1B8261D3008A63C3 /* Swift-CounterTests */ = {
-			isa = PBXGroup;
-			children = (
-				DFDE894D1B8261D3008A63C3 /* Swift_CounterTests.swift */,
-				DFDE894B1B8261D3008A63C3 /* Supporting Files */,
-			);
-			path = "Swift-CounterTests";
-			sourceTree = "<group>";
-		};
-		DFDE894B1B8261D3008A63C3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DFDE894C1B8261D3008A63C3 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,39 +99,18 @@
 			productReference = DFDE89321B8261D3008A63C3 /* Counter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DFDE89461B8261D3008A63C3 /* CounterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFDE89541B8261D3008A63C3 /* Build configuration list for PBXNativeTarget "CounterTests" */;
-			buildPhases = (
-				DFDE89431B8261D3008A63C3 /* Sources */,
-				DFDE89441B8261D3008A63C3 /* Frameworks */,
-				DFDE89451B8261D3008A63C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DFDE89491B8261D3008A63C3 /* PBXTargetDependency */,
-			);
-			name = CounterTests;
-			productName = "Swift-CounterTests";
-			productReference = DFDE89471B8261D3008A63C3 /* CounterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		DFDE892A1B8261D3008A63C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "The Iron Yard";
 				TargetAttributes = {
 					DFDE89311B8261D3008A63C3 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					DFDE89461B8261D3008A63C3 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = DFDE89311B8261D3008A63C3;
 					};
 				};
 			};
@@ -189,7 +128,6 @@
 			projectRoot = "";
 			targets = (
 				DFDE89311B8261D3008A63C3 /* Counter */,
-				DFDE89461B8261D3008A63C3 /* CounterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +145,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFDE89451B8261D3008A63C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -226,23 +157,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFDE89431B8261D3008A63C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFDE894E1B8261D3008A63C3 /* Swift_CounterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DFDE89491B8261D3008A63C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DFDE89311B8261D3008A63C3 /* Counter */;
-			targetProxy = DFDE89481B8261D3008A63C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DF5740C91B835FE9004C128E /* LaunchScreen.xib */ = {
@@ -285,6 +200,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -365,40 +281,6 @@
 			};
 			name = Release;
 		};
-		DFDE89551B8261D3008A63C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Swift-CounterTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CounterTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Counter.app/Swift-Counter";
-			};
-			name = Debug;
-		};
-		DFDE89561B8261D3008A63C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Swift-CounterTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = CounterTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Counter.app/Swift-Counter";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,15 +298,6 @@
 			buildConfigurations = (
 				DFDE89521B8261D3008A63C3 /* Debug */,
 				DFDE89531B8261D3008A63C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DFDE89541B8261D3008A63C3 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DFDE89551B8261D3008A63C3 /* Debug */,
-				DFDE89561B8261D3008A63C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

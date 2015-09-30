@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Swift_Counter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Counter" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -47,6 +48,7 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="1Qi-EC-vOZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="16" id="1l0-Sj-6wh"/>
                             <constraint firstItem="1Qi-EC-vOZ" firstAttribute="centerX" secondItem="8lL-g8-MYH" secondAttribute="centerX" id="6le-3d-RZR"/>
@@ -61,6 +63,9 @@
                             <constraint firstItem="iQ1-St-r3q" firstAttribute="top" secondItem="9ai-yV-Jem" secondAttribute="bottom" id="cje-B5-AcE"/>
                             <constraint firstItem="9ai-yV-Jem" firstAttribute="centerX" secondItem="iQ1-St-r3q" secondAttribute="centerX" id="dZF-AR-x3m"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="f7a-gf-WbF" appends="YES" id="7rX-2w-Kho"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="countTextField" destination="iQ1-St-r3q" id="bwl-aZ-wpE"/>
@@ -69,6 +74,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="f7a-gf-WbF"/>
             </objects>
         </scene>
     </scenes>
