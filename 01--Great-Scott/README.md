@@ -3,9 +3,8 @@
 ## Agenda
 ### Daily Rituals
 
-* Standup Meeting
+* Standup Meeting/3 Little Things
 * Homework Review
-* 3 Little Things
 * Daily Quiz!
 * Assignment Overview
 * Turn-in Instructions
@@ -20,12 +19,16 @@
 ### Topics
 * Tour around Xcode
 * Playgrounds
-* Programming 101 with Swift
 * Yak Shaving
+* Programming 101 with Swift
 
 ### Assignment
 ```markdown
-* [ ]
+### Shaving the Weekly Yak
+* [ ] Complete the repo-related tasks for your weekly journal (see below).
+* [ ] Begin research on The Right Mindset.
+* [ ] Complete either an outline or (very) rough draft of your essay and place in your journal repo.
+* [ ] Work on your first set of Coding Kata exercises.
 ```
 ### Journal, Week One: The Right Mindset
 
