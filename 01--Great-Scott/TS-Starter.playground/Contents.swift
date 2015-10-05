@@ -95,20 +95,18 @@ import UIKit
 //class TestDataSource : NSObject, UITableViewDataSource
 //{
 //    let sortedCaptains = moreCaptains.sort()
-//    
+//
 //    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
 //    {
 //        return sortedCaptains.count
 //    }
-//    
+//
 //    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
 //    {
 //        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: nil)
-//        
+//
 //        let captainsName = sortedCaptains[indexPath.row]
 //        cell.textLabel?.text = "\(captainsName)"
 //        return cell
 //    }
 //}
-
-
