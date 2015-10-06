@@ -31,16 +31,16 @@ After completing this assignment, you should…
 ```markdown
 ### Normal Mode
 
-* Create a Playground named Human.
-* Make a class named BodyPart.
-* Create 20 classes that are subclasses of BodyPart.
-* Each class should have 3 methods that are specific to that part.
-* Each class should have 3 properties that are specific to that part.
+* [ ] Create a Playground named Human.
+* [ ] Make a class named BodyPart.
+* [ ] Create 20 classes that are subclasses of BodyPart.
+* [ ] Each class should have 3 methods that are specific to that part.
+* [ ] Each class should have 3 properties that are specific to that part.
  
 ### Hard Mode
 
-* Connect the body parts through properties.
-* Tell 15 parts to do something from another part... bonus if you can chain 4 + parts through methods.
+* [ ] Connect the body parts through properties.
+* [ ] Tell 15 parts to do something from another part... bonus if you can chain 4 + parts through methods.
 ```
 ## The Right Mindset
 
