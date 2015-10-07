@@ -1,6 +1,9 @@
 # 03 -- Good Morning, Agent Hunt
 
 ## Agenda
+### Instructor Commitments
+* 2-2:30 PM - Phone Meeting
+
 ### Daily Rituals
 
 * Standup Meeting ~15min
@@ -35,25 +38,26 @@ After completing this assignment, you should…
 ```markdown
 ### Normal Mode
 #### Storyboard Tasks
-
-* [ ] The button should really say "Authenticate"
-* [ ] The textfield should have placeholder text that says "Agent name"
-* [ ] Each UI element will need to be connected to its associated property in the ViewController class.
-* [ ] The agent name textfield should capitalize each word typed into it (see the attributes inspector)
-* [ ] Neither textfield should attempt any autocorrect or spellcheck (again, see attributes inspector)
-* [ ] The password textfield should hide the characters typed in (it will show dots, see the attributes inspector, see a pattern here?)
-* [ ] You will notice The Iron Yard logo image is left aligned, and in fact when you click on it, the outline appears orange. It really should be centered in the view like everything else (needs an autolayout constraint).
+* [ ] Add two UITextFields to the top of the view. Have them stretch to 80% of their superview's width.
+* [ ] Add a button centered below the textfields. The title should read "Authenticate".
+* [ ] Add a centered label below the button.
+* [ ] Place a UITextView below the label. It should also stretch to 80% of its superview's width (hint: you can instead use a constraint to make it the same width as one of the textfields, which will have the same effect).
+* [ ] Add a UIImageView and set it to the TIY logo image from your image assets. It should be centered with the rest of the elements.
 
 #### Code Changes
 
-* [ ] The UI elements should be set to an "empty string" in viewDidLoad of the ViewController class (#1 in comments).
-* [ ] The code should check to ensure BOTH the agent name and password fields are nonempty before allowing authentication (#2 in comments).
-* [ ] The greeting label should display "Good evening, Agent [last name]", where the agent's last name is pulled from the textfield (#3 in comments).
-* [ ] The mission briefing should display the information from MissionBriefing.txt (copy-paste, you don't have to read from the file). It also contains a placeholder for the agent's last name (#4 in comments).
-* [ ] The background color of the view should change to green on successful authentication of the agent (#5 in comments).
-* [ ] The background color of the view should change to red to indicate a failed login of the agent (#6 in comments).
+* [ ] 1. Copy the MissionBriefingViewControler.swift file into your project, and delete the ViewConroller.swift file that Xcode created for you.
+* [ ] 2. Change the class name of the view in the storyboard to match the class you just imported.
+* [ ] 3. The UI elements should be set to an "empty string" in viewDidLoad of the ViewController class.
+* [ ] 4. The code should check to ensure BOTH the agent name and password fields are nonempty before allowing authentication.
+* [ ] 5. The greeting label should display "Good evening, Agent [last name]", where the agent's last name is pulled from the textfield.
+* [ ] 6. The mission briefing should display the information from MissionBriefing.txt (copy-paste, you don't have to read from the file). It also contains a placeholder for the agent's last name.
+* [ ] 7. The background color of the view should change to green on successful authentication of the agent.
+* [ ] 8. The background color of the view should change to red to indicate a failed login of the agent.
 
 ### Hard Mode
+* [ ] Modify the constraints on the imageview (and possibly other views) to cause the logo to shrink when switching to landscape orientation (the current constraints cause it to float off the bottom of the viewable screen).
+* [ ] 
 ```
 ## The Right Mindset
 
