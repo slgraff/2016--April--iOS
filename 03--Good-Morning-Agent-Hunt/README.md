@@ -56,8 +56,7 @@ After completing this assignment, you should…
 * [ ] 8. The background color of the view should change to red to indicate a failed login of the agent.
 
 ### Hard Mode
-* [ ] Modify the constraints on the imageview (and possibly other views) to cause the logo to shrink when switching to landscape orientation (the current constraints cause it to float off the bottom of the viewable screen).
-* [ ] 
+* [ ] Modify the constraints on the imageview (and possibly other views) to cause the logo to shrink when switching to landscape orientation (the current constraints cause it to float off the bottom of the viewable screen). 
 ```
 ## The Right Mindset
 
