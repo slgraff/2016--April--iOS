@@ -10,7 +10,10 @@
 * Homework Review ~30min
 
 ### Topics
-* 
+* Intro to custom delegation
+* Timers
+* Navigation Controllers
+* Multiple View Controllers
 
 
 ## Homework - OutaTime
