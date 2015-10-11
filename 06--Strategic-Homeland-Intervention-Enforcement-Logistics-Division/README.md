@@ -41,12 +41,12 @@ After completing this assignment, you should…
 * [ ] The table view cell prototype should display two labels. One on the left of the cell and one on the right.
 	* [ ] The table view cell prototype should have a disclosure indicator
 	* [ ] The table view cell prototype should have its reuse indentifier set (hint: this should match the identifier set in "cellForRowAtIndexPath")
-	* [ ] The detail view should have a custom class name of "HeroDetailViewController". See the identity inspector in Interface Builder.
-	* [ ] The detail view should have 3 labels
-		* [ ] A label in the upper left corner that displays the hero's name
-		* [ ] A label 20 pts below the cover name label that displays the hero's homeworld
-		* [ ] A label the standard distance (8 pts) from the homeworld label that displays the hero's powers (be sure to set the label to _0 lines_ in the attributes inspector, as it will allow you to display more than 1 line)
-		* [ ] These labels should be connected to their appropriate properties in the HeroDetailViewController class.
+* [ ] The detail view should have a custom class name of "HeroDetailViewController". See the identity inspector in Interface Builder.
+* [ ] The detail view should have 3 labels:
+	* [ ] A label in the upper left corner that displays the hero's name
+	* [ ] A label 20 pts below the cover name label that displays the hero's homeworld
+	* [ ] A label the standard distance (8 pts) from the homeworld label that displays the hero's powers (be sure to set the label to _0 lines_ in the attributes inspector, as it will allow you to display more than 1 line)
+	* [ ] These labels should be connected to their appropriate properties in the HeroDetailViewController class.
 
 #### Code Tasks
 * [ ] Remove the _ViewController.swift_ file from the project
