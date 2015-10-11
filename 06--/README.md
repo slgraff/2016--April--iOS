@@ -7,7 +7,7 @@
 ### Daily Rituals
 
 * Standup Meeting ~15min
-* _Change seats!_
+* _Change seats!_ (new seat and new neighbors please)
 * Monday Homework Review/Code Share ~90min
 
 ### Topics
@@ -15,63 +15,67 @@
 * Intro to the M in MVC (Model-View-Controller)
 
 
-## Homework - NOC List
+## Homework - S.H.I.E.L.D. Hero Tracker
 
-Congratulations agent. Your work on the Mission Briefing application was exemplary and has already proven invaluable to getting field agents up to speed on their new missions. The Director has noticed your hard work and has seen fit to increase both your security clearance and your field of responsibility. Your next mission is a top priority for the agency and if completed successfully, could provide you with a valuable shortcut to a supervisor position. Please read below for further info.
-
-Our undercover agents in Eastern Europe are in trouble. The NOC list (Non-official cover) has been leaked and we need our directors to have quick access to the information so we can try to mitigate the damage. Some of the agents on the list have an access level that makes them privy to very sensitive information. We need an application that will present the NOC list's information in a quickly digestable format. Our top agents have been working on it, but we need this done ASAP and you've proven yourself to be quite capable of a quick turnaround.
-
-See the agency's GitHub repository for the project resources. Also contained within will be additional instructions for completing this mission.
-
-The Director herself has given you access to all the agency's resources to complete this mission. We're counting on you agent.
-
-This message will self destruct in 5 seconds.
+There are now so many _super powered_ people running around that S.H.I.E.L.D. needs a way to keep track of them. Build a tableview-based app that shows a list of heroes, with the data read from a JSON file included in the app. When the user taps on a given hero, show a detail view that lists all the important stats for the powered person.
 
 ### Objectives
 
 After completing this assignment, you should…
 
-*
+* know how to use a UITableViewController to display a list of related data
+* be able to create a model class to store information and easily transport this info around the app.
+* have more practice with autolayout (esp. if you tackle the hard mode)
+* know how to read in JSON data from a file included in the app
+* begin to understand how to handle possible errors using a do-try-catch block
 
 ### Assignment Checklist
 ```markdown
 ### Normal Mode
 
 #### Storyboard Tasks
-    * [ ] The master view should be embedded in a navigation controller
-    * [ ] The table view cell prototype should display two labels. One on the left of the cell and one on the right.
-    * [ ] The table view cell prototype should have a disclosure indicator
-    * [ ] The table view cell prototype should have its reuse indentifier set (hint: this should match the identifier set in "cellForRowAtIndexPath")
-    * [ ] The table view prototype cell should segue to the detail view. This should "show" the detail view.
-    * [ ] The detail view should have a custom class name of "DetailViewController". See the identity inspector in Interface Builder.
-    * [ ] The detail view should have 3 labels
-        * [ ] A label in the upper left corner that displays the agent's cover name
-        * [ ] A label 10 pts below the cover name label that displays the agent's real name
-        * [ ] A label centered horizontally and vertically in the view that displays the agent's access level. It should say "Level #".
-        * [ ] These labels should be connected to their appropriate properties in the DetailViewController class.
+* [ ] Remove the view in the storyboard from the template
+* [ ] Add a Table View Controller to the canvas
+* [ ] Embed the above in a Navigation Controller
+* [ ] Add a second View Controller, to be used as the table's detail view
+* [ ] The table view cell prototype should display two labels. One on the left of the cell and one on the right.
+	* [ ] The table view cell prototype should have a disclosure indicator
+	* [ ] The table view cell prototype should have its reuse indentifier set (hint: this should match the identifier set in "cellForRowAtIndexPath")
+	* [ ] The detail view should have a custom class name of "HeroDetailViewController". See the identity inspector in Interface Builder.
+	* [ ] The detail view should have 3 labels
+		* [ ] A label in the upper left corner that displays the hero's name
+		* [ ] A label 20 pts below the cover name label that displays the hero's homeworld
+		* [ ] A label the standard distance (8 pts) from the homeworld label that displays the hero's powers (be sure to set the label to _0 lines_ in the attributes inspector, as it will allow you to display more than 1 line)
+		* [ ] These labels should be connected to their appropriate properties in the HeroDetailViewController class.
 
 #### Code Tasks
-    * [ ] Agent.m: 1 and 2. Extract the appropriate values from the agent dictionary and set the associated Agent object values
-    * [ ] MasterViewController.m: 3. Set the title of the master view
-    * [ ] 4. Initialize the agents NSMutableArray
-    * [ ] 5. Call loadNocList method
-    * [ ] 6. Create a for-in loop to iterate over the agent dictionaries and create Agent objects out of them
-    * [ ] 7. Call a method to reload the data for the tableview
-    * [ ] 8. Set the segue identifier to match the value used in the storyboard 
-    * [ ] 9. Get the index path value for the selected cell
-    * [ ] 10. Replace the "0" in the brackets with the row value of the index path object
-    * [ ] 11. Use the provided call to the segue object for the destinationViewController to send the Agent object to the detail view controller
-    * [ ] 12. Set the number of rows per section for our tableview (we only have 1 section)
-    * [ ] 13. Add the appropriate cell identifier in the dequeue method call
-    * [ ] 14. Get a handle to the appropriate Agent object from the agents array
-    * [ ] 15. Set the two cell labels to their appropriate values from the Agent object (the cover name and the real name)
-    * [ ] 16. Send something to the object calling this method. What is this method supposed to return?
-    * [ ] 17. Connect this property to its associated storyboard object
-    * [ ] 18. Create two additional properties for the other storyboard objects and connect them as well
-    * [ ] 19. Extract the agent's last name from the cover name property
-    * [ ] 20. Set the title of this view to "Agent #", where # is the agent's last name
-    * [ ] 21. Set the three labels to their appropriate values from the Agent object
-    * [ ] 22. Call the configureView method
+* [ ] Remove the _ViewController.swift_ file from the project
+* [ ] Add a new Table View Controller subclass called _HeroTableViewController_
+* [ ] Add a new View Controller subclass called _HeroDetailViewController_
+* [ ] Add a new swift class called "Hero"
+* [ ] Add the _heroes.json_ file to the project
+* In _HeroTableViewController_:
+	* [ ] Create a property to store custom _Hero_ models
+	* [ ] Set the title to "S.H.I.E.L.D. Hero Tracker"
+	* [ ] Call the private method _loadHeroes()_
+	* [ ] Create a private method called _loadHeroes()_
+		* [ ] Load the JSON file into a local array
+		* [ ] Create a for loop that iterates over each dictionary in the array and creates a hero object. Add each hero to the _heroes_ array property
+		* [ ] Sort the _heroes_ array in place to alphabetize the list by hero name
+	* [ ] Implement the three tableview datasource methods to get each hero in the _heroes_ array to display in the table with the name in the cell's left label and their homeworld in the cell's right label.
+	* [ ] Implement the _didSelectRowAtIndexPath_ tableview delegate method to transition to the detail view. Be sure to send the appropriate hero object to the detail view controller before you inititate the transition.
+* In _HeroDetailViewController_:
+	* [ ] Create three IBOutlet properties: _nameLabel_, _homeworldLabel_, and _powersLabel_ and wire them up to the appropriate labels in the storyboard.
+	* [ ] Add a property called _hero_ that is a Hero optional.
+	* [ ] Take the name, homeworld and powers from the hero property and set them to their appropriate label onscreen.
+
+### Hard Mode
+
+* [ ] Add a UIImageView to the detail view to display an avatar-style image of the hero. See the screenshot _hardmode.png_ in today's folder for a guide on how to place it in the view.
+* [ ] Find images for each hero on Google image search or similar, add the image files to the project, and then add a fourth key:value pair to the JSON for each hero with the filename of the associated image.
+	* [ ] Add a property to the Hero model class to store this filename (as a String)
+	* [ ] In the _loadHeroes()_ function, pull this value from the dictionary each time through the loop and store it in your new model property
+	* In the same place in _HeroDetailViewController_ where you set the three labels, add another instruction that uses the filename property from the model object to load the appropriate image into the UIImageView.
 
 #### Journal, Week 1
    * [ ] created branch in `USERNAME.github.io` named `journal-week-1`
