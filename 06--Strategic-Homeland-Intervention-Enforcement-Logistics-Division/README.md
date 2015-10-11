@@ -9,6 +9,7 @@
 * Standup Meeting ~15min
 * _Change seats!_ (new seat and new neighbors please)
 * Monday Homework Review/Code Share ~90min
+* In-class app: NOC List ~60min
 
 ### Topics
 * TableViews and UITableViewController
@@ -75,7 +76,7 @@ After completing this assignment, you should…
 * [ ] Find images for each hero on Google image search or similar, add the image files to the project, and then add a fourth key:value pair to the JSON for each hero with the filename of the associated image.
 	* [ ] Add a property to the Hero model class to store this filename (as a String)
 	* [ ] In the _loadHeroes()_ function, pull this value from the dictionary each time through the loop and store it in your new model property
-	* In the same place in _HeroDetailViewController_ where you set the three labels, add another instruction that uses the filename property from the model object to load the appropriate image into the UIImageView.
+	* [ ] In the same place in _HeroDetailViewController_ where you set the three labels, add another instruction that uses the filename property from the model object to load the appropriate image into the UIImageView.
 
 #### Journal, Week 1
    * [ ] created branch in `USERNAME.github.io` named `journal-week-1`
