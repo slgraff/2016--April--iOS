@@ -48,5 +48,8 @@ After completing this assignment, you should…
 
 #### Journal, Week 1
 
-   * [ ] The journal is due on Monday, so please finish up your edits and only add a link to the PR to today's issue once you have completed it. Also, have 1 other person in-class read through the entry and provide feedback to you in your PR. When they comment, it will attach their GH username so we'll be able to see who you picked.
+* [ ] The journal is due on Monday, so please finish up your edits and only add a link to the PR to today's issue once you have completed it. Also, have 1 other person in-class read through the entry and provide feedback to you in your PR. When they comment, it will attach their GH username so we'll be able to see who you picked.
+
+#### Kata 2
+Due next Wednesday, Oct 21st.
 ```
