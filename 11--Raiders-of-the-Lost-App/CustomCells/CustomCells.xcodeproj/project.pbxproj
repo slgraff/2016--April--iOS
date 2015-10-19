@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DFFD1A8B1BD5369C003A0D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD1A8A1BD5369C003A0D83 /* AppDelegate.swift */; };
-		DFFD1A8D1BD5369C003A0D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD1A8C1BD5369C003A0D83 /* ViewController.swift */; };
 		DFFD1A901BD5369C003A0D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFD1A8E1BD5369C003A0D83 /* Main.storyboard */; };
 		DFFD1A921BD5369C003A0D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFFD1A911BD5369C003A0D83 /* Assets.xcassets */; };
 		DFFD1A951BD5369C003A0D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFFD1A931BD5369C003A0D83 /* LaunchScreen.storyboard */; };
+		DFFD1A9D1BD54360003A0D83 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD1A9C1BD54360003A0D83 /* ListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DFFD1A9F1BD543EB003A0D83 /* ExampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD1A9E1BD543EB003A0D83 /* ExampleCell.swift */; settings = {ASSET_TAGS = (); }; };
+		DFFD1AA11BD546AB003A0D83 /* AnotherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD1AA01BD546AB003A0D83 /* AnotherCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DFFD1A871BD5369C003A0D83 /* CustomCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFFD1A8A1BD5369C003A0D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DFFD1A8C1BD5369C003A0D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFFD1A8F1BD5369C003A0D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFFD1A911BD5369C003A0D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFFD1A941BD5369C003A0D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFFD1A961BD5369C003A0D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFD1A9C1BD54360003A0D83 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		DFFD1A9E1BD543EB003A0D83 /* ExampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCell.swift; sourceTree = "<group>"; };
+		DFFD1AA01BD546AB003A0D83 /* AnotherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				DFFD1A8A1BD5369C003A0D83 /* AppDelegate.swift */,
-				DFFD1A8C1BD5369C003A0D83 /* ViewController.swift */,
+				DFFD1A9C1BD54360003A0D83 /* ListTableViewController.swift */,
+				DFFD1A9E1BD543EB003A0D83 /* ExampleCell.swift */,
+				DFFD1AA01BD546AB003A0D83 /* AnotherCell.swift */,
 				DFFD1A8E1BD5369C003A0D83 /* Main.storyboard */,
 				DFFD1A911BD5369C003A0D83 /* Assets.xcassets */,
 				DFFD1A931BD5369C003A0D83 /* LaunchScreen.storyboard */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFFD1A8D1BD5369C003A0D83 /* ViewController.swift in Sources */,
+				DFFD1A9F1BD543EB003A0D83 /* ExampleCell.swift in Sources */,
+				DFFD1AA11BD546AB003A0D83 /* AnotherCell.swift in Sources */,
 				DFFD1A8B1BD5369C003A0D83 /* AppDelegate.swift in Sources */,
+				DFFD1A9D1BD54360003A0D83 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
