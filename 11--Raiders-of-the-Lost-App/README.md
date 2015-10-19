@@ -13,9 +13,10 @@
 
 ### Topics
 
+* OO-Terms added to wiki
+* First evaluations
 * Discussion of business/view logic separation
 * Custom cell classes
-* OO-Terms added to wiki
 
 ## Homework - The Grail Diary
 
