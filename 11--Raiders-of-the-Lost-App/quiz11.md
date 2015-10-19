@@ -27,7 +27,7 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
 	
 	// assume an array property exists called tickets, which contains ticket objects
 	
-	ticket = ?
+	let ticket = ?
 }
 ```
 
