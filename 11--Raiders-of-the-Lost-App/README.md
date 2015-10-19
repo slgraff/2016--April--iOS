@@ -23,6 +23,8 @@
 
 Create a single view application that shows at least 10 famous historical sites around the world in a tableview. Create a model class called _Site_ that can model three attributes as properties. Build this app in the same manner that we've used so far in class. So start with the most trivial implementation of the tableview and build from there, one step at a time.
 
+[Info on JSON syntax](https://en.wikipedia.org/wiki/JSON#Data_types.2C_syntax_and_example). Contains an example as well.
+
 ### Hard Mode
 
 Once you have an application that can display each site in a tableviewcell and show one of the attributes from the model object, create a custom cell class and  set it up to display the name and the three properties from the model.
