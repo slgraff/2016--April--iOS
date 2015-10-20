@@ -1,4 +1,4 @@
-# 11 -- The Temple of (Core) Data
+# 12 -- The Temple of (Core) Data
 
 ## Agenda
 
