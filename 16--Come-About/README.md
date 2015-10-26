@@ -24,9 +24,13 @@
 
 #### Normal Mode
 
-* [ ] Add functionality to allow the user to reset the board
-* [ ] Add functionality to show the score of each player (how many games won)
+* [ ] Add functionality to show the score of each player (how many games won) as well as how many games were a stalemate
 * [ ] Update gameStatusLabel for each player's turn, and also notify the user when a player has one
+* [ ] Add functionality to allow the user to reset the board
+* [ ] Add functionality to allow the user to reset the scores (and by extension, the board as well)
+
+#### Hard Mode
+
 * [ ] Add functionality to randomly choose from several different colors for each player so each game shows different sets of game board colors
 
 #### Journal, Week 2
