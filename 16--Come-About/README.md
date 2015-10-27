@@ -25,7 +25,7 @@
 #### Normal Mode
 
 * [ ] Add functionality to show the score of each player (how many games won) as well as how many games were a stalemate
-* [ ] Update gameStatusLabel for each player's turn, and also notify the user when a player has one
+* [ ] Update gameStatusLabel for each player's turn, and also notify the user when a player has won
 * [ ] Add functionality to allow the user to reset the board
 * [ ] Add functionality to allow the user to reset the scores (and by extension, the board as well)
 
