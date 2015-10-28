@@ -26,7 +26,15 @@ Extend the functionality of the app we built in class today. Allow the user to e
 
 #### Normal Mode
 
+* [ ] Add a navigation bar and a + bar button item.
+* [ ] When tapped, the + button should open a popover that provides the user with two textfields. Collect a city, state from the user for each textfield and then close the popover
+* [ ] Map those two cities by dropping pins.
+* [ ] Calculate the line-of-sight distance between those two cities and display it in miles somewhere on the screen.
+
 #### Hard Mode
+
+* [ ] Instead of calculating line-of-sight distance, look in the documentation to find a way to calculate the driving distance and display that to the user.
+* [ ] Draw a line on the map betweeen the cities using the driving directions you got from the above step.
 
 #### Journal, Week 2
 
