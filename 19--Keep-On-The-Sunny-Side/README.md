@@ -31,11 +31,13 @@ http://maps.googleapis.com/maps/api/geocode/json?address=santa+cruz&components=p
 ```
 (Where 12345 is the zipcode. The URL also has an address field with a city name in it which is ignored by the API server for this request.)
 
+Here is the link to the [Forecast.io API](https://developer.forecast.io). You will need to create a free account and copy your API key into your source code for use in the API call.
+
 Here are some design layout ideas for the views:
 
-![City Table View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Forecaster/CityTableView.png)
-![Add City View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Forecaster/AddCityView.png)
-![Forecast Detail View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Forecaster/DetailedForecast.png)
+![City Table View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Keep-On-The-Sunny-Side/CityTableView.png)
+![Add City View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Keep-On-The-Sunny-Side/AddCityView.png)
+![Forecast Detail View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Keep-On-The-Sunny-Side/DetailedForecast.png)
 
 ### Assignment Checklist
 ```markdown
