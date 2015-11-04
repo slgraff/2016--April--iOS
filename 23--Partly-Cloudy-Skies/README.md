@@ -1,4 +1,4 @@
-# 23 --
+# 23 -- Partly Cloudy Skies
 
 ## Agenda
 
@@ -15,6 +15,7 @@
 
 ### Topics
 
+* Cocoapods
 * Data Persistence Options for iOS
 	* Local Options
 		* First-Party Solutions
@@ -34,15 +35,17 @@
 			* [Parse](https://www.parse.com)
 			* [Firebase](https://www.firebase.com)
 
-## Homework - 
+## Homework - Explore Parse
 
-### Assignment Checklist
-```markdown
+Create a developer account on Parse.com and explore the admin console as well as the documentation. Choose one of the following previous assignments and try to add a LoginView Controller to allow the user to register/login. Also allow the user to "save" a record in Parse. Perhaps by adding a "favorite" type button to the UI somewhere.
 
-#### Normal Mode
+Eligible apps:
 
-#### Hard Mode
+* S.H.I.E.L.D. Tracker
+* The Grail Diary
+* In Due Time
+* Dude, Where's My Car? (with this one you would simply replace the NSCoding persistence with saving to Parse)
 
 #### Kata 5
 
-```
+* New kata will be posted after lunch.
