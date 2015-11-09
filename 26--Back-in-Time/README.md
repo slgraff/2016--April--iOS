@@ -17,6 +17,14 @@
 
 ## Homework - OutaTime Redux
 
+### Pairings for tonight:
+
+* Jen and Phil
+* Keron and Pedro
+* Elizabeth and Sam
+* David and Isaiah
+* Chris and Michael
+
 ![Great Scott!](http://weknowmemes.com/wp-content/uploads/2011/10/great-scott-doc-back-to-the-future-drawing.jpg)
 
 Great Scott!
