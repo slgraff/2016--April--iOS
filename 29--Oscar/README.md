@@ -21,10 +21,6 @@ This weekend you'll build an app that interacts with [OMDB](http://omdbapi.com).
 
 The API is simple to interact with and will give you basic stats on any movie you search for.
 
-Here's an example call:
-
-```http://www.omdbapi.com/?t=guardians+of+the+galaxy&y=&plot=short&r=json```
-
 The API provides lots of info on the title, including a link to the movie poster. Be sure to incorporate this poster somewhere in the app.
 
 App Examples:
