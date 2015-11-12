@@ -41,6 +41,8 @@ The above is certainly not an exhaustive list, so feel free to use your imaginat
 * You must do a minimum amount of design pre-work. This means that you think about the general flow/navigation and what kind of affordances you'll use to indicate interactivity. This can be rough sketches on paper, digital mockups using Sketch or similar, or even a whiteboard. If the design is analog, take a picture and attach to your issue. If it is digital, add a screenshot.
 * You must use Objective-C. A hybrid project is also off limits.
 * Your pair/group will demo your app on Monday to the class. There cannot be any partially complete features in the demo, so if you can't finish something, hide the UI/comment out the code so it isn't shown at runtime.
+* This assignment does not REQUIRE a paired-programming approach, but I would still highly recommend that you work on the code together.
+* In addition, you must create a work log for the assignment and attach names to show which team member completed each task. Paste this into your issue as a comment.
 
 ### Pairings for the weekend:
 
