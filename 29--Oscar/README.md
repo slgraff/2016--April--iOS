@@ -42,5 +42,5 @@ The above is certainly not an exhaustive list, so feel free to use your imaginat
 * David and Keron
 * Chris and Sam
 * Elizabeth and Jen
-* Isaiah and Phil
-* Michael and Pedro
+* Isaiah and Pedro
+* Michael and Phil
