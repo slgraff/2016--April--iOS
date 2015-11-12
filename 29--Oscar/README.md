@@ -21,11 +21,9 @@ This weekend you'll build an app that interacts with [OMDB](http://omdbapi.com).
 
 The API is simple to interact with and will give you basic stats on any movie you search for.
 
-Here's an example call and response:
+Here's an example call:
 
 ```http://www.omdbapi.com/?t=guardians+of+the+galaxy&y=&plot=short&r=json```
-
-```{"Title":"Guardians of the Galaxy","Year":"2014","Rated":"PG-13","Released":"01 Aug 2014","Runtime":"121 min","Genre":"Action, Adventure, Sci-Fi","Director":"James Gunn","Writer":"James Gunn, Nicole Perlman, Dan Abnett (comic book), Andy Lanning (comic book)","Actors":"Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel","Plot":"A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.","Language":"English","Country":"USA, UK","Awards":"Nominated for 2 Oscars. Another 44 wins & 85 nominations.","Poster":"http://ia.media-imdb.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX300.jpg","Metascore":"76","imdbRating":"8.1","imdbVotes":"566,636","imdbID":"tt2015381","Type":"movie","tomatoMeter":"91","tomatoImage":"certified","tomatoRating":"7.8","tomatoReviews":"274","tomatoFresh":"250","tomatoRotten":"24","tomatoConsensus":"Guardians of the Galaxy is just as irreverent as fans of the frequently zany Marvel comic would expect -- as well as funny, thrilling, full of heart, and packed with visual splendor.","tomatoUserMeter":"92","tomatoUserRating":"4.4","tomatoUserReviews":"242164","DVD":"09 Dec 2014","BoxOffice":"$333.2M","Production":"Walt Disney Pictures","Website":"http://marvel.com/guardians","Response":"True"}```
 
 The API provides lots of info on the title, including a link to the movie poster. Be sure to incorporate this poster somewhere in the app.
 
