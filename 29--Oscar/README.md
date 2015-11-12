@@ -13,8 +13,7 @@
 
 ### Topics
 
-* Using an Objective-C project to create a Swift equivalent.
-* We will rebuild groceries in Swift.
+* Review of High Voltage Objective-C implementation.
 
 ## Homework - Movie Mania
 
