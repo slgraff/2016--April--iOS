@@ -35,9 +35,9 @@ Here is the link to the [Forecast.io API](https://developer.forecast.io). You wi
 
 Here are some design layout ideas for the views:
 
-![City Table View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Keep-On-The-Sunny-Side/CityTableView.png)
-![Add City View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Keep-On-The-Sunny-Side/AddCityView.png)
-![Forecast Detail View](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/blob/master/19--Keep-On-The-Sunny-Side/DetailedForecast.png)
+![City Table View](https://github.com/TIYRaleigh/2016--April--iOS/blob/master/19--Keep-On-The-Sunny-Side/CityTableView.png)
+![Add City View](https://github.com/TIYRaleigh/2016--April--iOS/blob/master/19--Keep-On-The-Sunny-Side/AddCityView.png)
+![Forecast Detail View](https://github.com/TIYRaleigh/2016--April--iOS/blob/master/19--Keep-On-The-Sunny-Side/DetailedForecast.png)
 
 ### Assignment Checklist
 ```markdown

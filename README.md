@@ -4,9 +4,9 @@ Hello everyone! I'm excited to get started with class and I hope you are too. Ov
 
 ## This is Github
 
-First, you need to [sign up for a free Github account](http://github.com/signup), find [the class project](https://github.com/TheIronYard--Orlando/2015--FALL--iOS) and "star" it ([more on "starring" and notifications](https://help.github.com/articles/about-stars)). Once you do, I'll invite you to [a group for our class](https://github.com/orgs/TheIronYard--Orlando/teams/2015-fall-ios), so watch for an email from Github!
+First, you need to [sign up for a free Github account](http://github.com/signup), find [the class project](https://github.com/TIYRaleigh/2016--April--iOS) and "star" it ([more on "starring" and notifications](https://help.github.com/articles/about-stars)). Once you do, I'll invite you to [a group for our class](https://github.com/orgs/TIYRaleigh/teams/2016--April--iOS), so watch for an email from Github!
 
-Next, get acquainted by poking around a bit, paying special attention to [the class wiki](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/wiki). There's some important information there about how to turn in assignments and how I'll grade them. Afterward, get started on **This is Heavy**, _due the first day of class_.
+Next, get acquainted by poking around a bit, paying special attention to [the class wiki](https://github.com/TIYRaleigh/2016--April--iOS/wiki). There's some important information there about how to turn in assignments and how I'll grade them. Afterward, get started on **This is Heavy**, _due the first day of class_.
 
 You will notice a series of folders with numbers in their titles in the repo. This is where all homework assignments, notes, the day's agenda, etc. will be posted. We will have one folder for each lecutre day. Some will contain actual Xcode projects while others will be just some source code and/or tips/hints used to solve the problem at hand.
 
@@ -16,7 +16,7 @@ Feel free to reach out to me on Slack (what's that?) once the class starts with 
 
 You're about to take the first step of many on the road to becoming a full fledged software engineer!
 
-###### Ben
+###### Jeff
 
-* Twitter: [@akhenaten](http://www.twitter.com/akhenaten)
-* Github: [@jcgohlke](http://www.github.com/jcgohlke)
+* Twitter: [@jeffro_ligon](http://www.twitter.com/jeffro_ligon)
+* Github: [@jtligon](http://www.github.com/jtligon)

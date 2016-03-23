@@ -12,9 +12,9 @@ You will notice in the __Tasks__ and __Requirements__ sections below that the te
 ### Tasks:
 
 * [X] [Create a Github account](https://github.com/signup)
-* [X] Find and star [the class project](https://github.com/TheIronYard--Orlando/2015--FALL--iOS)
-* [ ] Read [the Home page on the class wiki](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/wiki)
-* [ ] [Create a new _WIP Issue_](https://github.com/TheIronYard--Orlando/2015--FALL--iOS/issues/new)
+* [X] Find and star [the class project](https://github.com/TIYRaleigh/2016--April--iOS)
+* [ ] Read [the Home page on the class wiki](https://github.com/TIYRaleigh/2016--April--iOS/wiki)
+* [ ] [Create a new _WIP Issue_](https://github.com/TIYRaleigh/2016--April--iOS/issues/new)
   * [ ] Named `00 -- This is Heavy -- YOUR NAME` (where `YOUR NAME` is _your_ name)
   * [ ] With this checklist as the description
 * [ ] [Edit your Github profile](https://github.com/settings/profile) to provide:
