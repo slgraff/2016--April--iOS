@@ -53,7 +53,7 @@ class ViewController: UIViewController
         // 3. Here we are setting the value property of the UISlider in the view. This causes the slider to set its handle to the
         //    appropriate position. Fill in the blank below.
         //
-        slider.value = Float(currentCount)
+        slider.setValue(Float(currentCount), animated: true)
         
         //
         // 4. We also need to update the value of the UIStepper. The user will not see any change to the stepper, but it needs to have a
